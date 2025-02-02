@@ -13,14 +13,19 @@ The first project showcases image optimization using the local file system. This
 ### 2. Redis Based Optimization
 The second project implements image optimization using Redis as a caching layer. This approach:
 - Stores optimized images in Redis for quick retrieval
-- Excellent for distributed systems and cloud deployments
-- Provides better scalability for larger applications
+
+### 3. Cloudflare Images Based Optimization
+The third project demonstrates image optimization using Cloudflare Images. This approach:
+- Leverages Cloudflare's global CDN network for image delivery
+- Provides automatic image optimization and format conversion
+- Offers robust image transformation capabilities
+- Includes built-in security features and DDoS protection
 
 ## Technical Stack
-
 - Next.js 14+
 - Sharp (for image processing)
 - Redis (for the Redis-based implementation). You can use upstash (I'm not sponsored by them)
+- Cloudflare Images (for the Cloudflare-based implementation)
 - TypeScript
 
 ## Getting Started
@@ -28,6 +33,7 @@ The second project implements image optimization using Redis as a caching layer.
 Each project has its own setup instructions in their respective directories:
 - `/using-filesystem`
 - `/using-redis`
+- `/using-cloudflare`
 
 Please refer to the README in each directory for specific setup and running instructions.
 
